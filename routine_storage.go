@@ -31,6 +31,7 @@ type store struct {
 }
 
 type storage struct {
+	name string
 }
 
 func (t *storage) Get() (v interface{}) {
